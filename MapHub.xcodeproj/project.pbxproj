@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FA5B141443CB8500A37FD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA5B131443CB8500A37FD6 /* UIKit.framework */; };
+		18FA5B161443CB8500A37FD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA5B151443CB8500A37FD6 /* Foundation.framework */; };
+		18FA5B181443CB8500A37FD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA5B171443CB8500A37FD6 /* CoreGraphics.framework */; };
+		18FA5B1E1443CB8500A37FD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FA5B1C1443CB8500A37FD6 /* InfoPlist.strings */; };
+		18FA5B201443CB8500A37FD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA5B1F1443CB8500A37FD6 /* main.m */; };
+		18FA5B241443CB8500A37FD6 /* MapHubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA5B231443CB8500A37FD6 /* MapHubAppDelegate.m */; };
+		18FA5B271443CB8500A37FD6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FA5B251443CB8500A37FD6 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18FA5B0F1443CB8500A37FD6 /* MapHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FA5B131443CB8500A37FD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18FA5B151443CB8500A37FD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FA5B171443CB8500A37FD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18FA5B1B1443CB8500A37FD6 /* MapHub-Info.plist */ = {isa = PBXFileReference; path = "MapHub-Info.plist"; sourceTree = "<group>"; };
+		18FA5B1D1443CB8500A37FD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FA5B1F1443CB8500A37FD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FA5B211443CB8500A37FD6 /* MapHub-Prefix.pch */ = {isa = PBXFileReference; path = "MapHub-Prefix.pch"; sourceTree = "<group>"; };
+		18FA5B221443CB8500A37FD6 /* MapHubAppDelegate.h */ = {isa = PBXFileReference; path = MapHubAppDelegate.h; sourceTree = "<group>"; };
+		18FA5B231443CB8500A37FD6 /* MapHubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapHubAppDelegate.m; sourceTree = "<group>"; };
+		18FA5B261443CB8500A37FD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FA5B0C1443CB8500A37FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA5B141443CB8500A37FD6 /* UIKit.framework in Frameworks */,
+				18FA5B161443CB8500A37FD6 /* Foundation.framework in Frameworks */,
+				18FA5B181443CB8500A37FD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FA5B041443CB8500A37FD6 = {
+			isa = PBXGroup;
+			children = (
+				18FA5B191443CB8500A37FD6 /* MapHub */,
+				18FA5B121443CB8500A37FD6 /* Frameworks */,
+				18FA5B101443CB8500A37FD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FA5B101443CB8500A37FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FA5B0F1443CB8500A37FD6 /* MapHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FA5B121443CB8500A37FD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FA5B131443CB8500A37FD6 /* UIKit.framework */,
+				18FA5B151443CB8500A37FD6 /* Foundation.framework */,
+				18FA5B171443CB8500A37FD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FA5B191443CB8500A37FD6 /* MapHub */ = {
+			isa = PBXGroup;
+			children = (
+				18FA5B221443CB8500A37FD6 /* MapHubAppDelegate.h */,
+				18FA5B231443CB8500A37FD6 /* MapHubAppDelegate.m */,
+				18FA5B251443CB8500A37FD6 /* MainWindow.xib */,
+				18FA5B1A1443CB8500A37FD6 /* Supporting Files */,
+			);
+			path = MapHub;
+			sourceTree = "<group>";
+		};
+		18FA5B1A1443CB8500A37FD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FA5B1B1443CB8500A37FD6 /* MapHub-Info.plist */,
+				18FA5B1C1443CB8500A37FD6 /* InfoPlist.strings */,
+				18FA5B1F1443CB8500A37FD6 /* main.m */,
+				18FA5B211443CB8500A37FD6 /* MapHub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FA5B0E1443CB8500A37FD6 /* MapHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FA5B2A1443CB8500A37FD6 /* Build configuration list for PBXNativeTarget "MapHub" */;
+			buildPhases = (
+				18FA5B0B1443CB8500A37FD6 /* Sources */,
+				18FA5B0C1443CB8500A37FD6 /* Frameworks */,
+				18FA5B0D1443CB8500A37FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapHub;
+			productName = MapHub;
+			productReference = 18FA5B0F1443CB8500A37FD6 /* MapHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FA5B061443CB8500A37FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Cornell University";
+			};
+			buildConfigurationList = 18FA5B091443CB8500A37FD6 /* Build configuration list for PBXProject "MapHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FA5B041443CB8500A37FD6;
+			productRefGroup = 18FA5B101443CB8500A37FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FA5B0E1443CB8500A37FD6 /* MapHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FA5B0D1443CB8500A37FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA5B1E1443CB8500A37FD6 /* InfoPlist.strings in Resources */,
+				18FA5B271443CB8500A37FD6 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FA5B0B1443CB8500A37FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FA5B201443CB8500A37FD6 /* main.m in Sources */,
+				18FA5B241443CB8500A37FD6 /* MapHubAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18FA5B1C1443CB8500A37FD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FA5B1D1443CB8500A37FD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18FA5B251443CB8500A37FD6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FA5B261443CB8500A37FD6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FA5B281443CB8500A37FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		18FA5B291443CB8500A37FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FA5B2B1443CB8500A37FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapHub/MapHub-Prefix.pch";
+				INFOPLIST_FILE = "MapHub/MapHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18FA5B2C1443CB8500A37FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapHub/MapHub-Prefix.pch";
+				INFOPLIST_FILE = "MapHub/MapHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FA5B091443CB8500A37FD6 /* Build configuration list for PBXProject "MapHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA5B281443CB8500A37FD6 /* Debug */,
+				18FA5B291443CB8500A37FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FA5B2A1443CB8500A37FD6 /* Build configuration list for PBXNativeTarget "MapHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FA5B2B1443CB8500A37FD6 /* Debug */,
+				18FA5B2C1443CB8500A37FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FA5B061443CB8500A37FD6 /* Project object */;
+}
