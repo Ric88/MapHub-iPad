@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class MapViewController;
+
 @interface MapHubAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) MapViewController *viewController;
 
 @end

@@ -7,17 +7,26 @@
 //
 
 #import "MapHubAppDelegate.h"
+#import "MapViewController.h"
 
 @implementation MapHubAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    /*// Override point for customization after application launch.
     [self.window makeKeyAndVisible];
-    return YES;
-}
+    return YES;*/
+    MapViewController *controller = [[MapViewController alloc] initWithNibName:nil bundle:nil];
+    self.viewController = controller;
+    [controller release];
+    
+    [self.window addSubview:self.viewController.view];
+    
+    [self.window makeKeyAndVisible];
+    return YES;}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -60,6 +69,7 @@
 
 - (void)dealloc
 {
+    [_viewController release];
     [_window release];
     [super dealloc];
 }
